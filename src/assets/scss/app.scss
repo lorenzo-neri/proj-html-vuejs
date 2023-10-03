@@ -14,6 +14,11 @@ $es-third_dark: #323387;
   max-width: 940px;
 }
 
+img {
+  width: 100%;
+}
+
+/* buttons */
 .es_button {
   background-color: $es-primary;
   color: $es-second_dark;
@@ -27,6 +32,19 @@ $es-third_dark: #323387;
   }
 }
 
+/* circle icon */
+/* aggiungi p-2 con bs */
+.circle_icon_light {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: $es-white;
+  color: $es-secundary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* CSS per HEADER */
 
 #jumbotron {
@@ -34,4 +52,11 @@ $es-third_dark: #323387;
   background-repeat: no-repeat;
   background-size: cover;
   height: 660px;
+}
+
+header {
+
+  img {
+    width: 140px;
+  }
 }

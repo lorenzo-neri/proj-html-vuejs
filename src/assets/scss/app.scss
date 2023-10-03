@@ -1,9 +1,10 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 
-h1 {
-  color: red;
-
-  &:hover {
-    color: blue;
-  }
-}
+$es-primary: #05cc7c;
+$es-dark: #181934;
+$es-white: #ffffff;
+$es-black: black;
+$es-second_dark: #212047;
+$es-secundary: #4251ff;
+$es-succes: #00ac4d;
+$es-third_dark: #323387;

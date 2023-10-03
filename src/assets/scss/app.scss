@@ -8,3 +8,29 @@ $es-second_dark: #212047;
 $es-secundary: #4251ff;
 $es-succes: #00ac4d;
 $es-third_dark: #323387;
+
+/* consiglio l'utilizzo di questa max-width per come è strutturato il design della pagina */
+.mw_1180 {
+  max-width: 940px;
+}
+
+.es_button {
+  background-color: $es-primary;
+  color: $es-second_dark;
+  padding: .8rem 2rem;
+  transition: .4s;
+
+  &:hover {
+    background-color: $es-second_dark;
+    color: $es-primary;
+    border: 1px solid $es-primary;
+  }
+}
+
+/* CSS per HEADER */
+
+#jumbotron {
+  background-image: url('../img/banner1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

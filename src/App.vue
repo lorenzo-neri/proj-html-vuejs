@@ -53,6 +53,7 @@ export default {
                 </svg>
               </div>
             </a>
+            <!-- RIGHT ICON HEADER -->
 
           </div>
         </div>
@@ -63,7 +64,7 @@ export default {
 
 
 
-    <div class="container py-5">
+    <div class="container pb-5">
       <div class="row pt-5 mt-5 justify-content-start">
 
         <div class="col-1 d-flex flex-column gap-2">
@@ -104,10 +105,10 @@ export default {
             </svg>
           </a>
         </div>
-        <!-- /LEFT ICON -->
+        <!-- /LEFT ICON JUMBO-->
 
         <div class="col-10 text-center">
-          <div class="text-uppercase">
+          <div class="text-uppercase es-primary">
             Welcome to RaxG
           </div>
           <!-- /WELCOME -->
@@ -122,7 +123,7 @@ export default {
       </div>
       <!-- /.row -->
 
-      <div class="row justify-content-center pb-5">
+      <div id="buttons_jumbo" class="row justify-content-center pb-5">
         <div class="col-2 d-flex justify-content-center align-items-center">
           <a class="btn es_button d-flex justify-content-center align-items-center" href="##">
             Read More
@@ -149,8 +150,24 @@ export default {
         </div>
         <!-- /.col-1 -->
       </div>
+      <!-- /#buttons_jumbo /.row -->
+
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div id="team_logos" class="d-flex justify-content-between">
+            <img class="p-4" src="./assets/img/1.png" alt="Team Logo">
+            <img class="p-4" src="./assets/img/2.png" alt="Team Logo">
+            <img class="p-4" src="./assets/img/3.png" alt="Team Logo">
+            <img class="p-4" src="./assets/img/4.png" alt="Team Logo">
+            <img class="p-4" src="./assets/img/5.png" alt="Team Logo">
+            <img class="p-4" src="./assets/img/6.png" alt="Team Logo">
+          </div>
+        </div>
+        <!-- /.col -->
+      </div>
       <!-- /.row -->
-      <!-- /BUTTONS -->
+
+
     </div>
     <!-- /.container -->
 

@@ -9,14 +9,18 @@ $es-secundary: #4251ff;
 $es-succes: #00ac4d;
 $es-third_dark: #323387;
 
+.es-primary {
+  color: $es-primary;
+}
+
 /* consiglio l'utilizzo di questa max-width per come è strutturato il design della pagina */
 .mw_1180 {
   max-width: 940px;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 /* buttons */
 .es_button {
@@ -68,11 +72,18 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 660px;
-}
 
-header {
+  /* logo header */
+  header {
 
-  img {
-    width: 140px;
+    img {
+      width: 140px;
+    }
+  }
+
+  #team_logos {
+    background-color: $es-second_dark;
+    width: 940px;
+    height: 165px;
   }
 }

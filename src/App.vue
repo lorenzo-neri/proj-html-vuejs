@@ -26,20 +26,24 @@ export default {
     <!-- #company -->
     <section id="company" class="d-flex justify-content-center p-5">
       <div class="conatiner p-5 mw_1180">
-        <div class="row p-5">
+        <div class="row py-5 px-2">
           <div id="poster" class="col-6 p-4">
             <img src="./assets/img/exprince.jpg" alt="Picture of game">
           </div>
           <!-- /.col-6 -->
           <div class="col-6">
-            <span class="es-succes">12 Year Experience</span>
-            <h2>We Are The Best Gaming Company</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aliquam sed aspernatur non. Nisi corrupti,
-              corporis enim omnis odio.</p>
-            <p>
+            <span class="es-succes fs_10">12 Year Experience</span>
+            <h2 class="fw-bold pt-1 pb-2">We Are The Best Gaming Company</h2>
+            <p class="fs_10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aliquam sed aspernatur non.
+              Nisi corrupti,
+              corporis enim omnis odio.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class="fs_10">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quis totam quidem veritatis vero.
             </p>
-            <div class="d-flex gap-2">
+
+            <!-- sqaure check -->
+            <div v-for="i in 4" class="d-flex gap-2 align-items-center py-1">
               <div class="square_check">
                 <svg width="1rem" class="svg-inline--fa fa-check m-1" aria-hidden="true" focusable="false"
                   data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -49,10 +53,39 @@ export default {
                   </path>
                 </svg>
               </div>
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aut!
+              <div class="fs_10 fw-bolder">
+                Lorem ipsum dolor sit amet consectetur adipisicing elite.
               </div>
             </div>
+            <!-- sqaure check -->
+
+            <div class="col d-flex justify-content-start align-items-center">
+              <a class="btn es_button d-flex justify-content-center align-items-center" href="##">
+                Discover More
+                <svg width="1rem" class="svg-inline--fa fa-right-long ps-1" aria-hidden="true" focusable="false"
+                  data-prefix="fas" data-icon="right-long" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M504.3 273.6l-112.1 104c-6.992 6.484-17.18 8.218-25.94 4.406c-8.758-3.812-14.42-12.45-14.42-21.1L351.9 288H32C14.33 288 .0002 273.7 .0002 255.1S14.33 224 32 224h319.9l0-72c0-9.547 5.66-18.19 14.42-22c8.754-3.809 18.95-2.075 25.94 4.41l112.1 104C514.6 247.9 514.6 264.1 504.3 273.6z">
+                  </path>
+                </svg>
+              </a>
+
+              <a style="padding: 2rem; scale: .7;"
+                class="btn es_button d-flex align-items-center justify-content-center rounded-circle" href="###">
+                <svg width="1rem" class="svg-inline--fa fa-play" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path fill="currentColor"
+                    d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                  </path>
+                </svg>
+              </a>
+            </div>
+            <!-- /.col-1 -->
+
+
+
+
           </div>
           <!-- /.col-6 -->
         </div>

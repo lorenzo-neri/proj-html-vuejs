@@ -22,9 +22,10 @@ $es-third_dark: #323387;
   max-width: 940px;
 }
 
-/* img {
+img {
   width: 100%;
-} */
+}
+
 
 /* buttons */
 .es_button {
@@ -79,3 +80,22 @@ $es-third_dark: #323387;
 }
 
 /* ######## TEST ######## */
+
+/* CSS PER MAIN */
+/* #company */
+#company {
+  background-color: $es-dark;
+  width: 100%;
+
+  .square_check {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: $es-dark;
+    color: $es-succes;
+    border: 1px solid $es-succes;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

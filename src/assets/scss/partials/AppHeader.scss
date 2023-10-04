@@ -1,0 +1,24 @@
+@use '../app.scss' as *;
+
+/* CSS per HEADER */
+
+#jumbotron {
+    background-image: url('../../../assets/img/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+
+    /* logo header */
+    header {
+
+        img {
+            width: 140px;
+        }
+    }
+
+    #team_logos {
+        background-color: $es-second_dark;
+        width: 940px;
+        height: 165px;
+    }
+}

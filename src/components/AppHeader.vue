@@ -1,5 +1,5 @@
 <script>
-import Menu from './menu.vue';
+import Menu from './Menu.vue';
 
 export default {
 
@@ -31,6 +31,8 @@ export default {
         <header class="pb-5">
             <div class="container mw_1180 py-3 pb-5">
                 <div class="row justify-content-between align-items-center">
+
+                    <!-- LOGO HEADER -->
                     <div class="col-3">
                         <img src="../assets/img/menulogo.png" alt="RaxG Logo">
                     </div>
@@ -58,7 +60,7 @@ export default {
                         </div>
                     </div>
 
-
+                    <!-- RIGHT ICON HEADER -->
                     <div class="col-3 d-flex justify-content-end gap-2">
 
                         <a href="##">
@@ -98,6 +100,7 @@ export default {
         <div class="container pb-5">
             <div class="row pt-5 mt-5 justify-content-start">
 
+                <!-- LEFT ICON JUMBO-->
                 <div class="col-1 d-flex flex-column gap-2">
                     <a href="##">
                         <svg width="1rem" class="svg-inline--fa fa-facebook circle_icon_dark p-2" aria-hidden="true"
@@ -136,8 +139,9 @@ export default {
                         </svg>
                     </a>
                 </div>
-                <!-- /LEFT ICON JUMBO-->
+                <!-- /.col -->
 
+                <!-- WELCOME -->
                 <div class="col-10 text-center">
                     <div class="text-uppercase es-succes">
                         Welcome to RaxG

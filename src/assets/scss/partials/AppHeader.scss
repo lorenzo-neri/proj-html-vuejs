@@ -25,6 +25,8 @@
     }
 
     #team_logos {
+        position: absolute;
+        bottom: -170px;
         background-color: $es-second_dark;
         width: 940px;
         height: 165px;

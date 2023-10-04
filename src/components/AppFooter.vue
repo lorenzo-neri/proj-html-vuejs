@@ -1,14 +1,24 @@
 <script>
+import Menu from './Menu.vue';
+
 export default {
 
     name: 'AppHeader',
     data() {
         return {
-
+            /* con un file js potevo mettere le info all'interno e importarmi quello in ogni componente cui mi servisse, per sta volta metterò le info in header e in footer tramite copia e incolla */
+            contentsPages: [
+                { section: 'Home', link: '##', },
+                { section: 'Pages', link: '##' },
+                { section: 'Tournament', link: '##' },
+                { section: 'Shop', link: '##' },
+                { section: 'Blog', link: '##' },
+                { section: 'Contact', link: '##' },
+            ]
         }
     },
     components: {
-
+        Menu,
     }
 
 }
@@ -19,13 +29,17 @@ export default {
 
         <div class="pt-5">
             <div class="container mw_1180 pt-5">
-                <div class="row justify-content-between">
+                <div class="row justify-content-between align-items-center">
                     <div class="col">
                         <img style="width: 160px;" src="../assets/img/menulogo.png" alt="RaxG Logo">
                     </div>
                     <!-- /logo -->
-                    <div class="col">
-                        menù
+                    <div class="col d-flex gap-3 justify-content-center">
+                        <div v-for="content in contentsPages">
+
+                            <Menu :esSection="content.section" :esUrlLink="content.link"></Menu>
+
+                        </div>
                     </div>
 
                 </div>
@@ -36,8 +50,8 @@ export default {
                 <hr class="m-1">
 
                 <div id="bottom_footer" class="row pt-1 d-flex align-items-center justify-content-between">
-                    <div class="col-3">
-                        Copyrigth
+                    <div class="col">
+                        Copyrigth &copy; RaxG | Designed by <span class="es-succes fw-bold">Lorenzo Neri</span>
                     </div>
                     <div class="col-3 d-flex justify-content-end">
                         <a href="##">

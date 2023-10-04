@@ -6,6 +6,7 @@ export default {
     name: 'AppHeader',
     data() {
         return {
+            /* con un file js potevo mettere le info all'interno e importarmi quello in ogni componente cui mi servisse, per sta volta metterò le info in header e in footer tramite copia e incolla */
             contentsPages: [
                 { section: 'Home', link: '##', },
                 { section: 'Pages', link: '##' },
@@ -28,7 +29,7 @@ export default {
 
 
 
-        <header class="pb-5">
+        <header class="">
             <div class="container mw_1180 py-3 pb-5">
                 <div class="row justify-content-between align-items-center">
 
@@ -97,7 +98,7 @@ export default {
 
 
 
-        <div class="container pb-5">
+        <div class="container pb-5 position-relative">
             <div class="row pt-5 mt-5 justify-content-start">
 
                 <!-- LEFT ICON JUMBO-->

@@ -39,7 +39,7 @@ export default {
                     <div class="col-3">
                         Copyrigth
                     </div>
-                    <div class="col-2 d-flex">
+                    <div class="col-3 d-flex justify-content-end">
                         <a href="##">
                             <svg width="1rem" class="svg-inline--fa fa-facebook circle_icon_dark p-2" aria-hidden="true"
                                 focusable="false" data-prefix="fab" data-icon="facebook" role="img"

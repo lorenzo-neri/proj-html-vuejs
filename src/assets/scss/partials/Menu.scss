@@ -1,0 +1,14 @@
+@use '../app.scss' as *;
+
+#menu {
+    text-decoration: none;
+    color: $es-white;
+    transition: .4s;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+
+    &:hover {
+        color: $es-succes;
+    }
+}

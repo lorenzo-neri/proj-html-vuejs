@@ -1,14 +1,23 @@
 <script>
+import Menu from './menu.vue';
+
 export default {
 
     name: 'AppHeader',
     data() {
         return {
-
+            contentsPages: [
+                { section: 'Home', link: '##', },
+                { section: 'Pages', link: '##' },
+                { section: 'Tournament', link: '##' },
+                { section: 'Shop', link: '##' },
+                { section: 'Blog', link: '##' },
+                { section: 'Contact', link: '##' },
+            ]
         }
     },
     components: {
-
+        Menu,
     }
 
 }
@@ -21,15 +30,36 @@ export default {
 
         <header class="pb-5">
             <div class="container mw_1180 py-3 pb-5">
-                <div class="row justify-content-between">
-                    <div class="col">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-3">
                         <img src="../assets/img/menulogo.png" alt="RaxG Logo">
                     </div>
-                    <div class="col">
-                        menù
+
+                    <!-- MENU DINAMICO -->
+                    <div class="col-6 d-flex gap-3 justify-content-center">
+                        <div v-for="content in contentsPages">
+
+                            <div class="hover">
+
+                                <Menu :esSection="content.section" :esUrlLink="content.link"></Menu>
+                                <span
+                                    v-if="content.section === 'Home' || content.section === 'Pages' || content.section === 'Shop' || content.section === 'Blog'">
+                                    <svg width=".6rem" class="svg-inline--fa fa-angle-down" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="angle-down" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z">
+                                        </path>
+                                    </svg>
+                                </span>
+
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="col d-flex justify-content-end gap-2">
+
+                    <div class="col-3 d-flex justify-content-end gap-2">
 
                         <a href="##">
                             <div class="circle_icon_light">
@@ -109,7 +139,7 @@ export default {
                 <!-- /LEFT ICON JUMBO-->
 
                 <div class="col-10 text-center">
-                    <div class="text-uppercase es-primary">
+                    <div class="text-uppercase es-succes">
                         Welcome to RaxG
                     </div>
                     <!-- /WELCOME -->

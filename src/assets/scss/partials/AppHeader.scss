@@ -12,7 +12,15 @@
     header {
 
         img {
-            width: 140px;
+            width: 130px;
+        }
+
+        .hover {
+            transition: .4s;
+
+            &:hover {
+                color: $es-succes
+            }
         }
     }
 

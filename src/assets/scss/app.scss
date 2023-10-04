@@ -5,6 +5,7 @@ $es-dark: #181934;
 $es-white: #ffffff;
 $es-black: black;
 $es-second_dark: #212047;
+$es-second_dark_2: #1b1843;
 $es-secundary: #4251ff;
 $es-succes: #00ac4d;
 $es-third_dark: #323387;
@@ -103,3 +104,52 @@ img {
     align-items: center;
   }
 }
+
+/* /#company */
+
+/* #arena */
+#arena {
+  background-color: $es-second_dark_2;
+  width: 100%;
+  background-image: url(../img/Vector.png);
+  background-size: cover;
+  background-position: right;
+
+  .card {
+    border-radius: 30px;
+    padding: 2rem 1rem;
+
+    .circle {
+      border-radius: 50%;
+      width: 4.5rem;
+      aspect-ratio: 1/1;
+      background-color: $es-second_dark;
+      padding: 1rem;
+      margin-bottom: 10px;
+    }
+  }
+
+  .green_card {
+    background-color: $es-primary;
+    color: $es-second_dark;
+    transition: .5s;
+
+    &:hover {
+      background-color: $es-third_dark;
+      color: $es-white;
+    }
+  }
+
+  .dark_card {
+    background-color: $es-third_dark;
+    color: $es-white;
+    transition: .5s;
+
+    &:hover {
+      background-color: $es-primary;
+      color: $es-second_dark;
+    }
+  }
+}
+
+/* /#arena */

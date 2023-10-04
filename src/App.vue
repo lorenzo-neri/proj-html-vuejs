@@ -23,8 +23,9 @@ export default {
 
   <!--######## TEST ########-->
   <main class="text-white">
-    <!-- #company -->
-    <section id="company" class="d-flex justify-content-center p-5">
+
+    <!-- #company################ -->
+    <section id="company" class="d-flex justify-content-center pt-5">
       <div class="conatiner p-5 mw_1180">
         <div class="row py-5 px-2">
           <div id="poster" class="col-6 p-4">
@@ -81,10 +82,7 @@ export default {
                 </svg>
               </a>
             </div>
-            <!-- /.col-1 -->
-
-
-
+            <!-- /buttons -->
 
           </div>
           <!-- /.col-6 -->
@@ -94,7 +92,85 @@ export default {
       </div>
       <!-- /.conatiner -->
     </section>
-    <!-- /#company -->
+
+    <!-- /#company################ -->
+
+    <!-- #arena################# -->
+
+    <section id="arena" class="d-flex justify-content-center">
+      <div class="container p-5 mw_1180">
+        <div class="row py-5 px-2 align-items-center">
+
+          <div class="col mx-3">
+            <span class="es-succes fs_10">Our Extrem Feature</span>
+            <h2 class="fw-bold pt-1 pb-2">The Best Gaming Arena On The World!</h2>
+            <p class="fs_10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aliquam sed aspernatur non.
+              Nisi corrupti,
+              corporis enim omnis odio.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.</p>
+          </div>
+          <!-- /.col-6 -->
+
+          <!-- CARD -->
+          <div class="col mx-3">
+            <div class="row">
+              <div class="col-6 p-2">
+                <div class="card green_card d-flex flex-column align-items-center text-center">
+                  <div class="circle">
+                    <img src="./assets/img/feature1.png" alt="">
+                  </div>
+                  <h6 class="p-0 fw-bolder">Live Streaming</h6>
+                  <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+              <div class="col-6 p-2">
+                <div class="card dark_card d-flex flex-column align-items-center text-center">
+                  <div class="circle">
+                    <img src="./assets/img/feature2.png" alt="">
+                  </div>
+                  <h6 class="p-0 fw-bolder">Gaming News</h6>
+                  <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+              <div class="col-6 p-2">
+                <div class="card dark_card d-flex flex-column align-items-center text-center">
+                  <div class="circle">
+                    <img src="./assets/img/feature3.png" alt="">
+                  </div>
+                  <h6 class="p-0 fw-bolder">Great Tournament</h6>
+                  <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+              <div class="col-6 p-2">
+                <div class="card green_card d-flex flex-column align-items-center text-center">
+                  <div class="circle">
+                    <img src="./assets/img/feature4.png" alt="">
+                  </div>
+                  <h6 class="p-0 fw-bolder">Awward Ceremony</h6>
+                  <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+              </div>
+              <!-- /.col-6 -->
+            </div>
+          </div>
+          <!-- /.col-6 -->
+          <!-- /CARD -->
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+
+    <!-- /#arena################# -->
+
+
 
 
 

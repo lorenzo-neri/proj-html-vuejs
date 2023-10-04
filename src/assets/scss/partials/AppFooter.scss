@@ -1,0 +1,19 @@
+@use '../app.scss' as *;
+
+/* CSS per HEADER */
+
+#jumbotron {
+    background-image: url('../../../../src/assets/img/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background-position: center;
+
+
+    #bottom_footer {
+
+        a {
+            padding-left: 8px;
+        }
+    }
+}

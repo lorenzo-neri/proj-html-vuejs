@@ -76,57 +76,6 @@
 /* /#arena */
 
 
-/* #match */
-
-#match {
-    background-color: $es-dark;
-    width: 100%;
-}
-
-.card_match {
-    background-color: $es-second_dark;
-    border: 1px solid $es-primary;
-    border-radius: 15px;
-    margin: .8rem 0;
-    transition: .5s;
-
-    .card {
-        border-radius: 15px;
-        background-color: $es-dark;
-        border: none;
-        width: 100%;
-        color: white;
-
-
-        .card-body {
-            background-color: $es-card-body;
-            border: none;
-            border-end-end-radius: 15px;
-            border-end-start-radius: 15px;
-
-        }
-    }
-
-    &:hover {
-        background-color: $es-third_dark;
-        border: none;
-
-        .special {
-            background-color: $es-primary;
-        }
-
-        .icon_card>div {
-            color: white;
-            background-color: $es-dark;
-        }
-    }
-
-}
-
-/* /#match */
-
-
-
 /* #live */
 #live {
     background-image: url(../../../../src/assets/img/v-bg.png);
@@ -146,8 +95,93 @@
     }
 }
 
-
 /* /#live */
+
+
+/* #match */
+#match {
+    background-color: $es-dark;
+    width: 100%;
+
+
+    .card_match {
+        background-color: $es-second_dark;
+        border: 1px solid $es-primary;
+        border-radius: 15px;
+        margin: .8rem 0;
+        transition: .5s;
+
+        .card {
+            border-radius: 15px;
+            background-color: $es-dark;
+            border: none;
+            width: 100%;
+            color: white;
+
+
+            .card-body {
+                background-color: $es-card-body;
+                border: none;
+                border-end-end-radius: 15px;
+                border-end-start-radius: 15px;
+
+            }
+        }
+
+        &:hover {
+            background-color: $es-third_dark;
+            border: 1px solid $es-second_dark;
+
+            .special {
+                background-color: $es-primary;
+            }
+
+            .icon_card>div {
+                color: white;
+                background-color: $es-dark;
+            }
+        }
+
+    }
+}
+
+/* /#match */
+
+
+/* #choose */
+#choose {
+    background-color: $es-second_dark_2;
+    width: 100%;
+    background-image: url(../../../../src/assets/img/protfolio-vector.png);
+    background-size: cover;
+    background-position: right;
+
+    .card {
+        border: none;
+        transition: .5s;
+
+        &:hover .card-body {
+            background-color: $es-primary;
+        }
+
+        .ticket {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $es-primary;
+            padding: 4px 6px;
+        }
+
+        .card-body {
+            background-color: $es-second_dark;
+            transition: .5s;
+
+        }
+
+    }
+}
+
+/* /#choose */
 
 
 /* ######## TEST ######## */

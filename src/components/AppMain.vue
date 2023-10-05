@@ -242,6 +242,16 @@ export default {
             <div class="container py-5 mw_1180">
                 <div class="row py-5 text-center">
 
+                    <span class="es-succes fs_10">Trending Battle</span>
+                    <h2 class="fw-bold pt-2 pb-4 fs-1">Upcoming Match</h2>
+
+                    <div class="d-flex fs_9 justify-content-center gap-4 pb-2">
+                        <div class="es-succes">All</div>
+                        <div>Pubg</div>
+                        <div>COD</div>
+                        <div>AC</div>
+                        <div>MCX</div>
+                    </div>
 
                     <div class="card_match col-12 d-flex align-items-center justify-content-between gap-4">
                         <div class="col-6 d-flex py-3 align-items-center justify-content-around">
@@ -550,7 +560,7 @@ export default {
                                 <h3 class="text-bold">
                                     Call Of Deauty
                                 </h3>
-                                <p class="fs_10">
+                                <p class="fs_10 d-block">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, nam
                                     temporibus illum officiis repellat quidem magnam iusto architecto possimus.
                                 </p>
@@ -602,8 +612,172 @@ export default {
 
         <!-- /#match################# -->
 
+        <!-- #choose################# -->
 
+        <section id="choose">
+            <div class="black_bg">
+                <div class="container py-5 mw_1180">
+                    <div class="row py-5 justify-content-between">
+                        <div class="col-6">
+                            <span class="es-succes fs_10">Upcoming Match</span>
+                            <h2 class="fw-bold pt-1 pb-2">Choose Who Is The Best In World!</h2>
+                        </div>
+                        <!-- ARROW -->
+                        <div class="col-6 d-flex align-items-end gap-3 pb-2 justify-content-end">
+                            <div class="circle_icon_light">
+                                <svg width="1rem" class="svg-inline--fa fa-arrow-left-long" aria-hidden="true"
+                                    focusable="false" data-prefix="fas" data-icon="arrow-left-long" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M9.375 233.4l128-128c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H480c17.69 0 32 14.31 32 32s-14.31 32-32 32H109.3l73.38 73.38c12.5 12.5 12.5 32.75 0 45.25c-12.49 12.49-32.74 12.51-45.25 0l-128-128C-3.125 266.1-3.125 245.9 9.375 233.4z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="circle_icon_light">
+                                <svg width="1rem" class="svg-inline--fa fa-arrow-right-long" aria-hidden="true"
+                                    focusable="false" data-prefix="fas" data-icon="arrow-right-long" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- /ARROW -->
 
+                        <div class="col-3">
+                            <div class="card position-relative">
+                                <img src="../assets/img/protfolio1.png" class="card-img-top">
+                                <div class="ticket fs_8">
+                                    New
+                                </div>
+                                <div class="card-body px-2 d-flex text-white">
+                                    <div class="col-9">
+                                        <div class="fw-bolder">
+                                            Assasin's Creed
+                                        </div>
+                                        <div class="fs_10">
+                                            Lorem, ipsum dolor.
+                                        </div>
+                                    </div>
+                                    <a class="p-3 btn es_button d-flex align-items-center justify-content-center rounded-circle"
+                                        href="###">
+                                        <svg width=".7rem" class="svg-inline--fa fa-play" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="play" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col-3 -->
+                        <div class="col-3">
+                            <div class="card position-relative">
+                                <img src="../assets/img/protfolio2.png" class="card-img-top">
+                                <div class="ticket fs_8">
+                                    New
+                                </div>
+                                <div class="card-body px-2 d-flex text-white">
+                                    <div class="col-9">
+                                        <div class="fw-bolder">
+                                            Call of Duty
+                                        </div>
+                                        <div class="fs_10">
+                                            Lorem, ipsum dolor.
+                                        </div>
+                                    </div>
+                                    <a class="p-3 btn es_button d-flex align-items-center justify-content-center rounded-circle"
+                                        href="###">
+                                        <svg width=".7rem" class="svg-inline--fa fa-play" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="play" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col-3 -->
+                        <div class="col-3">
+                            <div class="card position-relative">
+                                <img src="../assets/img/protfolio3.png" class="card-img-top">
+                                <div class="ticket fs_8">
+                                    New
+                                </div>
+                                <div class="card-body px-2 d-flex text-white">
+                                    <div class="col-9">
+                                        <div class="fw-bolder">
+                                            Tomb Raider
+                                        </div>
+                                        <div class="fs_10">
+                                            Lorem, ipsum dolor.
+                                        </div>
+                                    </div>
+                                    <a class="p-3 btn es_button d-flex align-items-center justify-content-center rounded-circle"
+                                        href="###">
+                                        <svg width=".7rem" class="svg-inline--fa fa-play" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="play" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col-3 -->
+                        <div class="col-3">
+                            <div class="card position-relative">
+                                <img src="../assets/img/protfolio4.png" class="card-img-top">
+                                <div class="ticket fs_8">
+                                    New
+                                </div>
+                                <div class="card-body px-2 d-flex text-white">
+                                    <div class="col-9">
+                                        <div class="fw-bolder">
+                                            Mortal Kombat X
+                                        </div>
+                                        <div class="fs_10">
+                                            Lorem, ipsum dolor.
+                                        </div>
+                                    </div>
+                                    <a class="p-3 btn es_button d-flex align-items-center justify-content-center rounded-circle"
+                                        href="###">
+                                        <svg width=".7rem" class="svg-inline--fa fa-play" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="play" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                                            </path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col-3 -->
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+        </section>
+        <!-- /#choose -->
+
+        <!-- /#choose################# -->
 
 
 

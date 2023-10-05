@@ -1,5 +1,7 @@
 <script>
 import Menu from './Menu.vue';
+import menu from '../menu.js';
+
 
 export default {
 
@@ -7,14 +9,7 @@ export default {
     data() {
         return {
             /* con un file js potevo mettere le info all'interno e importarmi quello in ogni componente cui mi servisse, per sta volta metterò le info in header e in footer tramite copia e incolla */
-            contentsPages: [
-                { section: 'Home', link: '##', },
-                { section: 'Pages', link: '##' },
-                { section: 'Tournament', link: '##' },
-                { section: 'Shop', link: '##' },
-                { section: 'Blog', link: '##' },
-                { section: 'Contact', link: '##' },
-            ]
+            menu
         }
     },
     components: {
@@ -35,7 +30,7 @@ export default {
                     </div>
                     <!-- /logo -->
                     <div class="col d-flex gap-3 justify-content-center">
-                        <div v-for="content in contentsPages">
+                        <div v-for="content in menu">
 
                             <Menu :esSection="content.section" :esUrlLink="content.link"></Menu>
 

@@ -1,6 +1,7 @@
 <script>
 import Menu from './Menu.vue';
 import PlayButtonCircle from './PlayButtonCircle.vue';
+import menu from '../menu.js';
 
 export default {
 
@@ -8,14 +9,7 @@ export default {
     data() {
         return {
             /* con un file js potevo mettere le info all'interno e importarmi quello in ogni componente cui mi servisse, per sta volta metterò le info in header e in footer tramite copia e incolla */
-            contentsPages: [
-                { section: 'Home', link: '##', },
-                { section: 'Pages', link: '##' },
-                { section: 'Tournament', link: '##' },
-                { section: 'Shop', link: '##' },
-                { section: 'Blog', link: '##' },
-                { section: 'Contact', link: '##' },
-            ]
+            menu
         }
     },
     components: {
@@ -42,7 +36,7 @@ export default {
 
                     <!-- MENU DINAMICO -->
                     <div class="col-6 d-flex gap-3 justify-content-center">
-                        <div v-for="content in contentsPages">
+                        <div v-for="content in menu">
 
                             <div class="hover">
 

@@ -1065,8 +1065,8 @@ export default {
         <div class="container position-relative">
             <div class="row">
                 <div class="col d-flex justify-content-center">
-                    <div id="test" class="d-flex justify-content-center text-white align-items-center">
-                        form
+                    <div id="test" class="p-4 d-flex text-white align-items-center">
+                        <h2>Our news Letter</h2>
                     </div>
                 </div>
                 <!-- /.col -->

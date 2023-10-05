@@ -24,7 +24,7 @@ export default {
             <div class="conatiner py-5 mw_1180">
                 <div class="row py-5 px-2">
                     <div id="poster" class="col-6 p-4">
-                        <img src="../assets/img/exprince.jpg" alt="Picture of game">
+                        <img src="../assets/img/img-exp.png" alt="Picture of game">
                     </div>
                     <!-- /.col-6 -->
                     <div class="col-6 pt-3">

@@ -21,7 +21,7 @@ export default {
 
         <!-- #company################ -->
         <section id="company" class="d-flex justify-content-center pt-5">
-            <div class="conatiner p-5 mw_1180">
+            <div class="conatiner py-5 mw_1180">
                 <div class="row py-5 px-2">
                     <div id="poster" class="col-6 p-4">
                         <img src="../assets/img/exprince.jpg" alt="Picture of game">
@@ -86,76 +86,79 @@ export default {
         <!-- #arena################# -->
 
         <section id="arena" class="d-flex justify-content-center">
-            <div class="container p-5 mw_1180">
-                <div class="row py-5 px-2 align-items-center">
+            <div class="black_bg">
 
-                    <div class="col mx-3">
-                        <span class="es-succes fs_10">Our Extrem Feature</span>
-                        <h2 class="fw-bold pt-1 pb-2">The Best Gaming Arena On The World!</h2>
-                        <p class="fs_10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aliquam sed
-                            aspernatur non.
-                            Nisi corrupti,
-                            corporis enim omnis odio.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet,
-                            consectetur
-                            adipisicing elit.</p>
-                    </div>
-                    <!-- /.col-6 -->
 
-                    <!-- CARD -->
-                    <div class="col mx-3">
-                        <div class="row">
-                            <div class="col-6 p-2">
-                                <div class="card green_card d-flex flex-column align-items-center text-center">
-                                    <div class="circle">
-                                        <img src="../assets/img/feature1.png" alt="">
-                                    </div>
-                                    <h6 class="p-0 fw-bolder">Live Streaming</h6>
-                                    <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
-                                </div>
-                            </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6 p-2">
-                                <div class="card dark_card d-flex flex-column align-items-center text-center">
-                                    <div class="circle">
-                                        <img src="../assets/img/feature2.png" alt="">
-                                    </div>
-                                    <h6 class="p-0 fw-bolder">Gaming News</h6>
-                                    <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
-                                </div>
-                            </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6 p-2">
-                                <div class="card dark_card d-flex flex-column align-items-center text-center">
-                                    <div class="circle">
-                                        <img src="../assets/img/feature3.png" alt="">
-                                    </div>
-                                    <h6 class="p-0 fw-bolder">Great Tournament</h6>
-                                    <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
-                                </div>
-                            </div>
-                            <!-- /.col-6 -->
-                            <div class="col-6 p-2">
-                                <div class="card green_card d-flex flex-column align-items-center text-center">
-                                    <div class="circle">
-                                        <img src="../assets/img/feature4.png" alt="">
-                                    </div>
-                                    <h6 class="p-0 fw-bolder">Awward Ceremony</h6>
-                                    <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
-                                </div>
-                            </div>
-                            <!-- /.col-6 -->
+                <div class="container py-5 mw_1180">
+                    <div class="row py-5 px-2 align-items-center">
+
+                        <div class="col mx-3">
+                            <span class="es-succes fs_10">Our Extrem Feature</span>
+                            <h2 class="fw-bold pt-1 pb-2">The Best Gaming Arena On The World!</h2>
+                            <p class="fs_10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aliquam sed
+                                aspernatur non.
+                                Nisi corrupti,
+                                corporis enim omnis odio.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipisicing elit.</p>
                         </div>
+                        <!-- /.col-6 -->
+
+                        <!-- CARD -->
+                        <div class="col mx-3">
+                            <div class="row">
+                                <div class="col-6 p-2">
+                                    <div class="card green_card d-flex flex-column align-items-center text-center">
+                                        <div class="circle">
+                                            <img src="../assets/img/feature1.png" alt="">
+                                        </div>
+                                        <h6 class="p-0 fw-bolder">Live Streaming</h6>
+                                        <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                                    </div>
+                                </div>
+                                <!-- /.col-6 -->
+                                <div class="col-6 p-2">
+                                    <div class="card dark_card d-flex flex-column align-items-center text-center">
+                                        <div class="circle">
+                                            <img src="../assets/img/feature2.png" alt="">
+                                        </div>
+                                        <h6 class="p-0 fw-bolder">Gaming News</h6>
+                                        <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                                    </div>
+                                </div>
+                                <!-- /.col-6 -->
+                                <div class="col-6 p-2">
+                                    <div class="card dark_card d-flex flex-column align-items-center text-center">
+                                        <div class="circle">
+                                            <img src="../assets/img/feature3.png" alt="">
+                                        </div>
+                                        <h6 class="p-0 fw-bolder">Great Tournament</h6>
+                                        <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                                    </div>
+                                </div>
+                                <!-- /.col-6 -->
+                                <div class="col-6 p-2">
+                                    <div class="card green_card d-flex flex-column align-items-center text-center">
+                                        <div class="circle">
+                                            <img src="../assets/img/feature4.png" alt="">
+                                        </div>
+                                        <h6 class="p-0 fw-bolder">Awward Ceremony</h6>
+                                        <div class="fs_10">Lorem ipsum dolor sit amet consectetur.</div>
+                                    </div>
+                                </div>
+                                <!-- /.col-6 -->
+                            </div>
+                        </div>
+                        <!-- /.col-6 -->
+                        <!-- /CARD -->
+
                     </div>
-                    <!-- /.col-6 -->
-                    <!-- /CARD -->
+                    <!-- /.row -->
 
                 </div>
-                <!-- /.row -->
-
+                <!-- /.container -->
             </div>
-            <!-- /.container -->
-
         </section>
 
         <!-- /#arena################# -->
@@ -163,20 +166,71 @@ export default {
         <!-- #live################# -->
 
         <section id="live" class="d-flex justify content-center">
-            <div class="container p-5 mw1180">
-                <div class="row">
-                    <div class="col">
-                        video
+            <div class="black_bg">
+                <div class="container py-5 mw_1180">
+                    <div class="row py-5">
+                        <div class="col">
+                            <div class="video position-relative">
+                                <img src="../assets/img/v-1.png" alt="video">
+                                <div id="play_video">
+                                    <PlayButtonCircle />
+                                    <div style="width: 110%;" class="fs_8">Call of Deauty</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col">
+                            <span class="es-succes fs_10">Live Streaming</span>
+
+                            <div class="d-flex justify-content-between">
+                                <div class="col-9">
+                                    <h2 class="fw-bold pt-1 pb-2">Checkout Our Live Streaming</h2>
+                                </div>
+                                <!-- ARROW -->
+                                <div class="col-2 d-flex align-items-end pb-2 justify-content-between">
+                                    <div class="circle_icon_light">
+                                        <svg width="1rem" class="svg-inline--fa fa-arrow-left-long" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="arrow-left-long" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M9.375 233.4l128-128c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H480c17.69 0 32 14.31 32 32s-14.31 32-32 32H109.3l73.38 73.38c12.5 12.5 12.5 32.75 0 45.25c-12.49 12.49-32.74 12.51-45.25 0l-128-128C-3.125 266.1-3.125 245.9 9.375 233.4z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="circle_icon_light">
+                                        <svg width="1rem" class="svg-inline--fa fa-arrow-right-long" aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="arrow-right-long" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- /ARROW -->
+                            </div>
+
+                            <div class="d-flex gap-2">
+                                <div class="col-6">
+                                    <img src="../assets/img/v-small1.png" alt="">
+                                    <div class="fw-bolder pt-2">Call of Deauty</div>
+                                    <p class="fs_10">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <!-- /.col-6 -->
+                                <div class="col-6">
+                                    <img src="../assets/img/v-small2.png" alt="">
+                                    <div class="fw-bolder pt-2">Doom III</div>
+                                    <p class="fs_10">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <!-- /.col-6 -->
+                            </div>
+                        </div>
+                        <!-- /.col -->
                     </div>
-                    <!-- /.col -->
-                    <div class="col">
-                        testo e video
-                    </div>
-                    <!-- /.col -->
+                    <!-- /.row -->
                 </div>
-                <!-- /.row -->
+                <!-- /.container -->
             </div>
-            <!-- /.container -->
         </section>
         <!-- /#live -->
 

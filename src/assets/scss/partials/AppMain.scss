@@ -2,6 +2,11 @@
 
 
 /* CSS PER MAIN */
+.black_bg {
+    background-color: rgba(0, 0, 0, 0.268);
+    width: 100%;
+}
+
 /* #company */
 #company {
     background-color: $es-dark;
@@ -25,7 +30,7 @@
 
 /* #arena */
 #arena {
-    background-color: $es-second_dark_2;
+    background-color: $es-second_dark;
     width: 100%;
     background-image: url(../../../../src/assets/img/Vector.png);
     background-size: cover;
@@ -76,6 +81,18 @@
     background-image: url(../../../../src/assets/img/v-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+
+    #play_video {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 110px;
+        left: 180px;
+    }
 }
 
 

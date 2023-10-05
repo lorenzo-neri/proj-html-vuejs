@@ -5,9 +5,11 @@ $es-dark: #181934;
 $es-white: #ffffff;
 $es-black: black;
 $es-second_dark: #212047;
+$es-second_dark_2: #26235e;
 $es-secundary: #4251ff;
 $es-succes: #00ac4d;
 $es-third_dark: #323387;
+$es-card-body: #142256;
 
 .es-primary {
   color: $es-primary;
@@ -51,7 +53,7 @@ img {
 }
 
 /* circle icon */
-/* aggiungi p-2 con bs */
+/* aggiungi p-2 alla svg con bs */
 .circle_icon_light {
   width: 2rem;
   height: 2rem;
@@ -84,3 +86,18 @@ img {
     background-color: $es-primary;
   }
 }
+
+/* aggiungi p-2 alla svg */
+.circle_icon_success {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  background-color: $es-succes;
+  color: $es-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* /circle icon */

@@ -243,42 +243,354 @@ export default {
                 <div class="row py-5 text-center">
 
 
-                    <div id="card_match" class="col-12">
-                        <div class="col-6">
-                            <div class="col-5">
-                                <div class="card">
-
-                                    <div class="card-body">
-
+                    <div class="card_match col-12 d-flex align-items-center justify-content-between gap-4">
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-around">
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t3.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            Italy
+                                        </div>
+                                        <h5>
+                                            Ninja Gaming
+                                        </h5>
                                     </div>
                                 </div>
                                 <!-- /.card -->
                             </div>
                             <!-- /.col-5 -->
-                            <div class="col-2">
-
+                            <div class="col-3 p-1">
+                                <div class="card p-2 py-5">
+                                    <h4 class="m-0 es-primary fw-bolder">VS</h4>
+                                </div>
                             </div>
                             <!-- /.col-2 -->
-                            <div class="col-5">
-
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t4.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            India
+                                        </div>
+                                        <h5>
+                                            Witch Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
                             </div>
                             <!-- /.col-5 -->
                         </div>
                         <!-- /.col-6 -->
 
-                        <div class="col-6">
-                            <div class="col-7">
-
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-start">
+                            <div class="col-7 text-start">
+                                <h3 class="text-bold">
+                                    PUBG Battleground
+                                </h3>
+                                <p class="fs_10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, nam
+                                    temporibus illum officiis repellat quidem magnam iusto architecto possimus.
+                                </p>
                             </div>
                             <!-- /.col-7 -->
-                            <div class="col-5">
-
+                            <div class="col-4">
+                                <div class="card special p-3 py-4">
+                                    <div class="fs-3">
+                                        10:45
+                                    </div>
+                                    <div class="fs_10">
+                                        1st November, 2022
+                                    </div>
+                                    <div class="icon_card d-flex justify-content-center gap-2 pt-2">
+                                        <div class="circle_icon_success">
+                                            <svg class="svg-inline--fa fa-youtube p-2" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="youtube" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle_icon_success">
+                                            <svg class="p-2 svg-inline--fa fa-message" aria-hidden="true" focusable="false"
+                                                data-prefix="fas" data-icon="message" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- /.col-5 -->
                         </div>
                         <!-- /.col-6 -->
                     </div>
-                    <!-- /#card_match -->
+                    <!-- /.card_match -->
+                    <div class="card_match col-12 d-flex align-items-center justify-content-between gap-4">
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-around">
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t1.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            Italy
+                                        </div>
+                                        <h5>
+                                            King Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                            <div class="col-3 p-1">
+                                <div class="card p-2 py-5">
+                                    <h4 class="m-0 es-primary fw-bolder">VS</h4>
+                                </div>
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t2.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            India
+                                        </div>
+                                        <h5>
+                                            Witch Astro
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-start">
+                            <div class="col-7 text-start">
+                                <h3 class="text-bold">
+                                    Assasin's Creed
+                                </h3>
+                                <p class="fs_10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, nam
+                                    temporibus illum officiis repellat quidem magnam iusto architecto possimus.
+                                </p>
+                            </div>
+                            <!-- /.col-7 -->
+                            <div class="col-4">
+                                <div class="card special p-3 py-4">
+                                    <div class="fs-3">
+                                        09:45
+                                    </div>
+                                    <div class="fs_10">
+                                        1st November, 2022
+                                    </div>
+                                    <div class="icon_card d-flex justify-content-center gap-2 pt-2">
+                                        <div class="circle_icon_success">
+                                            <svg class="svg-inline--fa fa-youtube p-2" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="youtube" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle_icon_success">
+                                            <svg class="p-2 svg-inline--fa fa-message" aria-hidden="true" focusable="false"
+                                                data-prefix="fas" data-icon="message" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /.card_match -->
+                    <div class="card_match col-12 d-flex align-items-center justify-content-between gap-4">
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-around">
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t5.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            Italy
+                                        </div>
+                                        <h5>
+                                            Dgn Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                            <div class="col-3 p-1">
+                                <div class="card p-2 py-5">
+                                    <h4 class="m-0 es-primary fw-bolder">VS</h4>
+                                </div>
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t6.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            India
+                                        </div>
+                                        <h5>
+                                            Joker Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-start">
+                            <div class="col-7 text-start">
+                                <h3 class="text-bold">
+                                    Mortal Combat X
+                                </h3>
+                                <p class="fs_10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, nam
+                                    temporibus illum officiis repellat quidem magnam iusto architecto possimus.
+                                </p>
+                            </div>
+                            <!-- /.col-7 -->
+                            <div class="col-4">
+                                <div class="card special p-3 py-4">
+                                    <div class="fs-3">
+                                        08:45
+                                    </div>
+                                    <div class="fs_10">
+                                        1st November, 2022
+                                    </div>
+                                    <div class="icon_card d-flex justify-content-center gap-2 pt-2">
+                                        <div class="circle_icon_success">
+                                            <svg class="svg-inline--fa fa-youtube p-2" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="youtube" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle_icon_success">
+                                            <svg class="p-2 svg-inline--fa fa-message" aria-hidden="true" focusable="false"
+                                                data-prefix="fas" data-icon="message" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /.card_match -->
+                    <div class="card_match col-12 d-flex align-items-center justify-content-between gap-4">
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-around">
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t7.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            Italy
+                                        </div>
+                                        <h5>
+                                            Shark Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                            <div class="col-3 p-1">
+                                <div class="card p-2 py-5">
+                                    <h4 class="m-0 es-primary fw-bolder">VS</h4>
+                                </div>
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-4 p-1">
+                                <div class="text-start card">
+                                    <img class="p-4" src="../assets/img/t8.png" alt="">
+                                    <div class="card-body p-2 py-3 text-white">
+                                        <div class="es-succes fs_10 py-1">
+                                            India
+                                        </div>
+                                        <h5>
+                                            Krull Gaming
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+
+                        <div class="col-6 d-flex py-3 align-items-center justify-content-start">
+                            <div class="col-7 text-start">
+                                <h3 class="text-bold">
+                                    Call Of Deauty
+                                </h3>
+                                <p class="fs_10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique, nam
+                                    temporibus illum officiis repellat quidem magnam iusto architecto possimus.
+                                </p>
+                            </div>
+                            <!-- /.col-7 -->
+                            <div class="col-4">
+                                <div class="card special p-3 py-4">
+                                    <div class="fs-3">
+                                        04:45
+                                    </div>
+                                    <div class="fs_10">
+                                        1st November, 2022
+                                    </div>
+                                    <div class="icon_card d-flex justify-content-center gap-2 pt-2">
+                                        <div class="circle_icon_success">
+                                            <svg class="svg-inline--fa fa-youtube p-2" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="youtube" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle_icon_success">
+                                            <svg class="p-2 svg-inline--fa fa-message" aria-hidden="true" focusable="false"
+                                                data-prefix="fas" data-icon="message" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                <path fill="currentColor"
+                                                    d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /.card_match -->
 
 
                 </div>

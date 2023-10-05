@@ -3,7 +3,7 @@
 
 /* CSS PER MAIN */
 .black_bg {
-    background-color: rgba(0, 0, 0, 0.268);
+    background-color: rgba(0, 0, 0, 0.364);
     width: 100%;
 }
 
@@ -30,7 +30,7 @@
 
 /* #arena */
 #arena {
-    background-color: $es-second_dark;
+    background-color: $es-second_dark_2;
     width: 100%;
     background-image: url(../../../../src/assets/img/Vector.png);
     background-size: cover;
@@ -81,6 +81,46 @@
 #match {
     background-color: $es-dark;
     width: 100%;
+}
+
+.card_match {
+    background-color: $es-second_dark;
+    border: 1px solid $es-primary;
+    border-radius: 15px;
+    margin: .8rem 0;
+    transition: .5s;
+
+    .card {
+        border-radius: 15px;
+        background-color: $es-dark;
+        border: none;
+        width: 100%;
+        color: white;
+
+
+        .card-body {
+            background-color: $es-card-body;
+            border: none;
+            border-end-end-radius: 15px;
+            border-end-start-radius: 15px;
+
+        }
+    }
+
+    &:hover {
+        background-color: $es-third_dark;
+        border: none;
+
+        .special {
+            background-color: $es-primary;
+        }
+
+        .icon_card>div {
+            color: white;
+            background-color: $es-dark;
+        }
+    }
+
 }
 
 /* /#match */

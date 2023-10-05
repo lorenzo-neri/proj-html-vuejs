@@ -184,6 +184,50 @@
 /* /#choose */
 
 
+/* #experts_team */
+#experts_team {
+    background-color: $es-fourth_dark;
+    width: 100%;
+
+
+    .card {
+        border: none;
+        transition: .5s;
+        position: relative;
+
+        .icon_social {
+            position: absolute;
+            scale: .7;
+            visibility: hidden;
+            top: 160px;
+            left: 15px;
+            transition: .5s;
+
+        }
+
+        &:hover .card-body {
+            background-color: $es-primary;
+
+
+        }
+
+        &:hover .icon_social {
+            visibility: visible;
+
+        }
+
+        .card-body {
+            background-color: $es-second_dark;
+            transition: .5s;
+
+        }
+
+    }
+}
+
+/* /#experts_team */
+
+
 /* ######## TEST ######## */
 #test {
     background-color: $es-second_dark;

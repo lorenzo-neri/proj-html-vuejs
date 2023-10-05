@@ -236,6 +236,59 @@ export default {
 
         <!-- /#live################# -->
 
+        <!-- #match################# -->
+
+        <section id="match" class="d-flex justify content-center">
+            <div class="container py-5 mw_1180">
+                <div class="row py-5 text-center">
+
+
+                    <div id="card_match" class="col-12">
+                        <div class="col-6">
+                            <div class="col-5">
+                                <div class="card">
+
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col-5 -->
+                            <div class="col-2">
+
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-5">
+
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+
+                        <div class="col-6">
+                            <div class="col-7">
+
+                            </div>
+                            <!-- /.col-7 -->
+                            <div class="col-5">
+
+                            </div>
+                            <!-- /.col-5 -->
+                        </div>
+                        <!-- /.col-6 -->
+                    </div>
+                    <!-- /#card_match -->
+
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /#match -->
+
+        <!-- /#match################# -->
 
 
 
